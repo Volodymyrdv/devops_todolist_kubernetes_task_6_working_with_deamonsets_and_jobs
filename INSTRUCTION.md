@@ -11,4 +11,5 @@ To check if the resources were successfully created, run the following command
 ## How to get logs
 To get more information about the application, run the commands
 - `kubectl get pods -n mateapp`
-- `kubectl logs <name_of_pod> -n mateapp`
+- `kubectl logs <todo-server-(а_DaemonSet)> -n mateapp`
+- `kubectl logs <curl-job-(а_CronJob)> -n mateapp`

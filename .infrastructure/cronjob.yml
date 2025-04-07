@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: CronJob
 metadata:
-  name: curl-job-1
+  name: curl-job
   namespace: mateapp
 spec:
   schedule: '*/4 * * * *'
