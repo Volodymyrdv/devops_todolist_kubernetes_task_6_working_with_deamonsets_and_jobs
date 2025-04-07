@@ -6,7 +6,7 @@ In the terminal run the following command
 3. `kubectl apply -f cronjob.yml`
 ## How to validate the solution
 To check if the resources were successfully created, run the following command
-- `kubectl get deamonset -n mateapp`
+- `kubectl get daemonset -n mateapp`
 - `kubectl get cronjob -n mateapp`
 ## How to get logs
 To get more information about the application, run the commands
